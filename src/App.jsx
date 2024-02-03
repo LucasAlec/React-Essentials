@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { CORE_CONCENPTS } from './data.js';
 import Header from './components/Header/Header.jsx';
@@ -11,9 +11,13 @@ function App() {
 
   const handleSelect = (selectedButton) => {
     // selectedButton => 'components', 'jsx', 'props', 'state'
-    //setSelectedTopic(selectedButton);
+    setSelectedTopic(selectedButton);
     console.log(selectedTopic);
   }
+
+  useEffect(() => {
+    console.log()
+  }, [selectedTopic])
 
   console.log(selectedTopic);
 
