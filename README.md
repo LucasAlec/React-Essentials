@@ -20,3 +20,5 @@ Using a `import` statement `reactImg`(the name is up to you) from the file. It w
 Using `import default` to refer the files.
 
 * Component Composition: The special `children` Prop [Core Concept]
+
+* Reacting to Events [Core Concept]
