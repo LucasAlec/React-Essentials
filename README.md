@@ -28,3 +28,6 @@ Using `import default` to refer the files.
 * Rendering Content Conditionally
 
 * CSS Styling & Dynanmic Styling
+
+* Outputting List Data Dynamically
+using the `map` method.

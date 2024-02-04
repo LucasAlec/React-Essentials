@@ -41,7 +41,7 @@ function App() {
         <section id="core-concepts">
           <h2>Core Concepts</h2>
           <ul>
-            <CoreConcept 
+          <CoreConcept 
               title={CORE_CONCENPTS[0].title}
               description={CORE_CONCENPTS[0].description}
               img= {CORE_CONCENPTS[0].image} 
