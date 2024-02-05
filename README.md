@@ -31,3 +31,5 @@ Using `import default` to refer the files.
 
 * Outputting List Data Dynamically
 using the `map` method.
+
+* Working with Fragments
